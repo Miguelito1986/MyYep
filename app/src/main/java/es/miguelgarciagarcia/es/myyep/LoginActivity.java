@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
-        mSignupTextView=(TextView)findViewById(R.id.signuptextView);
+        mSignupTextView=(TextView)findViewById(R.id.SignupButton);
         mSignupTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
