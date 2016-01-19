@@ -8,6 +8,8 @@
     <string name="title">MyYep</string>
     <string name="Subtitle">App</string>
     <string name="passwordField">password</string>
+    <string name="empty_field_message">The field %1$s is empty.</string>
+
 
 
 </resources>
