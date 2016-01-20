@@ -81,8 +81,7 @@
         android:hint="@string/Username"
         android:layout_above="@+id/passwordField"
         android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:text="@string/Username" />
+        android:layout_alignStart="@+id/imageView" />
 
 
         <EditText
@@ -93,7 +92,7 @@
             android:layout_centerVertical="true"
             android:layout_alignLeft="@+id/imageView"
             android:layout_alignStart="@+id/imageView"
-            android:text="@string/passwordField" />
+            android:hint="@string/passwordField" />
     </LinearLayout>
 
 </RelativeLayout>
