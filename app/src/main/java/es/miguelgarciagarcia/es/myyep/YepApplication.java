@@ -11,7 +11,6 @@ public class YepApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Parse.enableLocalDatastore(this);
         Parse.initialize(this);
          }
     }
